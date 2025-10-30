@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.counter.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="147.0" layoutY="46.0" prefHeight="39.0" prefWidth="282.0" text="Counter Application">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_submit" layoutX="172.0" layoutY="150.0" mnemonicParsing="false" onAction="#OnClick" prefHeight="39.0" prefWidth="90.0" text="Click Me">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="Label_output" layoutX="288.0" layoutY="150.0" prefHeight="39.0" prefWidth="158.0" text="Count : 0" textFill="#f20303">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_reset" layoutX="172.0" layoutY="200.0" mnemonicParsing="false" onAction="#ResetClick" prefHeight="39.0" prefWidth="90.0" text="Reset" />
+      <Label fx:id="label2" layoutX="279.0" layoutY="200.0" prefHeight="39.0" prefWidth="210.0" textFill="#f70000">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="sub_btn" alignment="CENTER" layoutX="172.0" layoutY="248.0" mnemonicParsing="false" onAction="#onMinus" prefHeight="39.0" prefWidth="90.0" text="-">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
